@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lesson_4_Swing.chatVersion1">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="165" y="20" width="439" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-881742"/>
+      <minimumSize width="400" height="400"/>
+      <opaque value="false"/>
+      <preferredSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9d9ff" binding="clientsListPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-13890066"/>
+          <font name="Droid Sans Mono"/>
+          <minimumSize width="100" height="600"/>
+          <opaque value="false"/>
+          <preferredSize width="100" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="34d3b" class="javax.swing.JList" binding="clientsList">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-856678"/>
+              <model>
+                <item value="Sonya"/>
+                <item value="Katya"/>
+                <item value="Petya"/>
+                <item value="Abdurakhman"/>
+              </model>
+              <selectionMode value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6a049" class="javax.swing.JTextArea" binding="dialogArea">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-4721988"/>
+        </properties>
+      </component>
+      <grid id="9e62f" binding="clientTextPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="57785" class="javax.swing.JTextField" binding="clientTextField">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="a363a" class="javax.swing.JButton" binding="sendButton">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="SEND"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
